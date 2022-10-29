@@ -4,7 +4,7 @@
   "description": "simple vue js project",
   "main": "index.js",
   "scripts": {
-    "test": "test",
+    "test": "vitest run",
     "build": "webpack --config webpack.config.js"
   },
   "keywords": [

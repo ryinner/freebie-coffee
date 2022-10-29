@@ -10,7 +10,6 @@ export default defineConfig({
     test: {
         globals: false,
         environment: 'happy-dom',
-        include: ['./src/**/*.{test}.{js}'],
         alias: {
             "@": path.resolve(__dirname, 'src/'),
         }
