@@ -1,6 +1,7 @@
 @import "./mixins/fonts-face";
 @include font-face("Nunito", "Nunito-Regular", "400", "regular");
 @include font-face("Nunito", "Nunito-Bold", "700", "bold");
+@include font-face("Montserrat", "Montserrat-Bold", "700", "bold");
 
 @mixin nunito-16-regular {
     font-family: "Nunito";
@@ -14,4 +15,11 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
+}
+
+@mixin montserrat-54-bold {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 70px;
 }

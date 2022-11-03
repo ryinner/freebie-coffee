@@ -1,5 +1,5 @@
 <template>
-    <div class="cart">
+    <div class="cart" data-testid="cart">
         <picture class="cart__container">
             <img class="cart__icon" src="@/assets/images/icons/iconsCart.svg">
             <div class="cart__counter">0</div>

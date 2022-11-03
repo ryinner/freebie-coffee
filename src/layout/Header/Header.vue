@@ -12,6 +12,11 @@
         <div class="header__right-bar">
             <Navigation />
         </div>
+        <div class="header__slogan">
+            <div class="header__text">YOUR </div>
+            <div class="header__text header__text--primary">PERSONALIZED</div>
+            <div class="header__text">COFFEE</div>
+        </div>
     </header>
 </template>
 
@@ -24,6 +29,8 @@ import Navigation from '../Navigation/Navigation.vue';
 <style lang="scss">
 @use "@/assets/scss/vars";
 @import "@/assets/scss/grid";
+@import "@/assets/scss/fonts";
+
 .header {
     width: 100%;
     display: flex;
@@ -60,6 +67,22 @@ import Navigation from '../Navigation/Navigation.vue';
 
     &__cart {
         grid-column: 12;
+    }
+
+    &__slogan {
+        position: absolute;
+        bottom: 20%;
+        left: 10%;
+    }
+
+    &__text {
+        color: var(--primary-color);
+        @include montserrat-54-bold;
+
+        &--primary {
+            color: var(--white-color);
+            background-color: var(--dark-accent-color);
+        }
     }
 }
 </style>
