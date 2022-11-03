@@ -9,7 +9,7 @@ module.exports = {
     },
     output: {
         publicPath: '/assets/js/',
-        path: path.resolve(__dirname, 'public/assets/js/'),
+        path: path.resolve(__dirname, 'public/assets/'),
         filename: "[name].js",
     },
     stats: {
@@ -44,7 +44,8 @@ module.exports = {
                 test: /\.(png|jpg|gif|svg)$/,
                 loader: 'file-loader',
                 options: {
-                    name: '[name].[ext]?[hash]'
+                    name: '[name].[ext]',
+                    outputPath: 'images' 
                 }
             }
         ]
@@ -62,5 +63,12 @@ module.exports = {
             __VUE_OPTIONS_API__: false,
             __VUE_PROD_DEVTOOLS__: false
         }),
-    ]
+    ],
+    devServer: {
+        static: {
+            directory: path.join(__dirname, 'public'),
+        },
+        compress: true,
+        port: 9000,
+    },
 }

@@ -1,0 +1,17 @@
+@import "./mixins/fonts-face";
+@include font-face("Nunito", "Nunito-Regular", "400", "regular");
+@include font-face("Nunito", "Nunito-Bold", "700", "bold");
+
+@mixin nunito-16-regular {
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+@mixin nunito-16-bold {
+    font-family: "Nunito";
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
