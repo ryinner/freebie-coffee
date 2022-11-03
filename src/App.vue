@@ -1,9 +1,11 @@
 <template>
     <Header />
+    <CoffeeBuild />
 </template>
 
 <script setup>
 import Header from "@/layout/Header/Header.vue"
+import CoffeeBuild from "./components/CoffeeBuild/CoffeeBuild.vue";
 </script>
 
 <style lang="scss">

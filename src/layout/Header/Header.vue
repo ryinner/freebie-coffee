@@ -23,7 +23,6 @@
 <script setup>
 import Cart from '../Cart/Cart.vue';
 import Navigation from '../Navigation/Navigation.vue';
-
 </script>
 
 <style lang="scss">
@@ -82,6 +81,7 @@ import Navigation from '../Navigation/Navigation.vue';
         &--primary {
             color: var(--white-color);
             background-color: var(--dark-accent-color);
+            padding-right: 10px;
         }
     }
 }

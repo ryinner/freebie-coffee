@@ -17,6 +17,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
+    cursor: pointer;
 
     &__container {
         position: relative;

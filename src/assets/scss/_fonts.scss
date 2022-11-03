@@ -17,6 +17,27 @@
     line-height: 20px;
 }
 
+@mixin nunito-20-regular {
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+@mixin nunito-24-bold {
+    font-family: "Nunito";
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+@mixin montserrat-30-regular {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 34px;
+}
+
 @mixin montserrat-54-bold {
     font-family: "Montserrat";
     font-weight: bold;
