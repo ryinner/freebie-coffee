@@ -1,10 +1,14 @@
 <template>
     <Header />
-    <CoffeeBuild />
+    <main>
+        <CoffeeBuild />
+        <ChooseFavoriteVue />
+    </main>
 </template>
 
 <script setup>
 import Header from "@/layout/Header/Header.vue"
+import ChooseFavoriteVue from "./components/ChooseFavorite/ChooseFavorite.vue";
 import CoffeeBuild from "./components/CoffeeBuild/CoffeeBuild.vue";
 </script>
 

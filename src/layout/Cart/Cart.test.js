@@ -3,6 +3,6 @@ import {test} from "vitest";
 import Cart from "./Cart.vue";
 
 test("Cart", () => {
-    const {getByTestId} = render(Cart)
+    const {getByTestId} = render(Cart);
     getByTestId(`cart`);
 })

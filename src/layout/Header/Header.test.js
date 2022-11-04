@@ -3,6 +3,6 @@ import {test} from "vitest";
 import Header from "./Header.vue";
 
 test("Header", () => {
-    const {getByTestId} = render(Header)
+    const {getByTestId} = render(Header);
     getByTestId(`header`);
 })

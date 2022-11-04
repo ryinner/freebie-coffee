@@ -1,5 +1,5 @@
 <template>
-    <section class="coffee-build" id="coffee" data-testid="coffee-build">
+    <section class="coffee-build" id="coffee-build" data-testid="coffee-build">
         <div class="coffee-build__header">
             <div class="coffee-build__slogan">Your Personalized Coffee</div>
             <h2 class="coffee-build__heading">COFFEE BUILD YOUR BASE</h2>
