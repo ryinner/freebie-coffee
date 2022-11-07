@@ -2,15 +2,17 @@
     <Header />
     <main>
         <CoffeeBuild />
-        <ChooseFavoriteVue />
+        <ChooseFavorite />
         <Gifset />
+        <Combo />
     </main>
 </template>
 
 <script setup>
 import Header from "@/layout/Header/Header.vue"
-import ChooseFavoriteVue from "./components/ChooseFavorite/ChooseFavorite.vue";
+import ChooseFavorite from "./components/ChooseFavorite/ChooseFavorite.vue";
 import CoffeeBuild from "./components/CoffeeBuild/CoffeeBuild.vue";
+import Combo from "./components/Combo/Combo.vue";
 import Gifset from "./components/Giftset/Giftset.vue";
 </script>
 

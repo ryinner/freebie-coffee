@@ -59,6 +59,7 @@ const props = defineProps({
     &__image {
         width: 100%;
         height: 100%;
+        max-height: 300px;
     }
     &__price {
         color: var(--dark-accent-color);

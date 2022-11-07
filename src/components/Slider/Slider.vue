@@ -23,11 +23,10 @@
     &__opacity {
         top: 0;
         right: 0;
-        width: 10%;
+        width: 14%;
         height: 100%;
-        opacity: 0.8;
         position: absolute;
-        background-color: var(--white-color);
+        backdrop-filter: blur(5px);
     }
     &__right {
         background: var(--dark-accent-color);
