@@ -8,16 +8,15 @@
                 <div class="product__price">{{price}}</div>
                 <h3 class="product__name">{{name}}</h3>
                 <div class="product__description">{{description}}</div>
-                <div class="product__control">
-                    <button class="product__cart">MUA NGAY</button>
-                    <a class="product__more">CHI TIẾT</a>
-                </div>
+                <ProductControls class="product__control" />
             </div>
         </div>
     </article>
 </template>
 
 <script setup>
+import ProductControls from '../ProductControls/ProductControls.vue';
+
 const props = defineProps({
     name: {
         type: String,
@@ -71,33 +70,6 @@ const props = defineProps({
     &__description {
         margin: 20px 0;
         @include nunito-16-regular;
-    }
-    &__cart {
-        color: #fff;
-        cursor: pointer;
-        padding: 6px 16px;
-        border-radius: 20px;
-        border: transparent;
-        background-color: var(--dark-accent-color);
-        transition: 300ms all ease-in;
-        @include nunito-16-regular;
-
-        &:hover {
-            transition: 300ms all ease-out;
-            background-color: var(--primary-color);
-        }
-    }
-    &__more {
-        cursor: pointer;
-        padding: 6px 32px;
-        color: var(--primary-color);
-        transition: 300ms all ease-in;
-        @include nunito-16-bold;
-
-        &:hover {
-            transition: 300ms all ease-out;
-            color: var(--dark-accent-color);
-        }
     }
 }
 </style>

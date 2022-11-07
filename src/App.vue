@@ -3,6 +3,7 @@
     <main>
         <CoffeeBuild />
         <ChooseFavoriteVue />
+        <Gifset />
     </main>
 </template>
 
@@ -10,6 +11,7 @@
 import Header from "@/layout/Header/Header.vue"
 import ChooseFavoriteVue from "./components/ChooseFavorite/ChooseFavorite.vue";
 import CoffeeBuild from "./components/CoffeeBuild/CoffeeBuild.vue";
+import Gifset from "./components/Giftset/Gifset.vue";
 </script>
 
 <style lang="scss">

@@ -35,6 +35,7 @@ import Slider from '../Slider/Slider.vue';
 .choose-favorite {
     @include section-margin;
     position: relative;
+    padding-bottom: 120px;
     &__background {
         position: absolute;
         left: 0;

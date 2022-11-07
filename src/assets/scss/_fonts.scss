@@ -3,6 +3,13 @@
 @include font-face("Nunito", "Nunito-Bold", "700", "bold");
 @include font-face("Montserrat", "Montserrat-Bold", "700", "bold");
 
+@mixin nunito-16-light {
+    font-family: "Nunito";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+}
+
 @mixin nunito-16-regular {
     font-family: "Nunito";
     font-weight: 400;

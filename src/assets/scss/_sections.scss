@@ -2,6 +2,10 @@
     margin-top: 87px;
 }
 
+@mixin section-padding {
+    padding-top: 87px;
+}
+
 @mixin section-heading-margin {
     margin-bottom: 72px;
 }
