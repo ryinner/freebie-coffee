@@ -6,6 +6,7 @@
         <Gifset />
         <Combo />
     </main>
+    <Footer />
 </template>
 
 <script setup>
@@ -14,6 +15,7 @@ import ChooseFavorite from "./components/ChooseFavorite/ChooseFavorite.vue";
 import CoffeeBuild from "./components/CoffeeBuild/CoffeeBuild.vue";
 import Combo from "./components/Combo/Combo.vue";
 import Gifset from "./components/Giftset/Giftset.vue";
+import Footer from "./layout/Footer/Footer.vue";
 </script>
 
 <style lang="scss">

@@ -36,6 +36,7 @@ import comboProducts from '@/assets/maps/comboProducts';
 .combo {
     @include section-padding;
     position: relative;
+    padding-bottom: 80px;
     &__header {
         text-align: center;
         color: var(--primary-color);
