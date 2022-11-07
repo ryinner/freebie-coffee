@@ -5,7 +5,7 @@
         </picture>
         <div class="product__info">
             <div class="product__main">
-                <div class="product__price">{{price}}</div>
+                <div class="product__price price"><span class="price__value">{{price}}</span><span class="price__discount" v-if="discountPrice">{{discountPrice}}</span></div>
                 <h3 class="product__name">{{name}}</h3>
                 <div class="product__description">{{description}}</div>
                 <ProductControls class="product__control" />
@@ -62,7 +62,8 @@ const props = defineProps({
         max-height: 300px;
     }
     &__price {
-        color: var(--dark-accent-color);
+        display: flex;
+        justify-content: space-between;
         @include nunito-20-regular;
     }
     &__name {
@@ -71,6 +72,16 @@ const props = defineProps({
     &__description {
         margin: 20px 0;
         @include nunito-16-regular;
+    }
+}
+
+.price {
+    &__value {
+        color: var(--dark-accent-color);
+    }
+    
+    &__discount {
+        text-decoration: line-through;
     }
 }
 </style>
