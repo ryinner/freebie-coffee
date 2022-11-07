@@ -1,5 +1,5 @@
 <template>
-    <section class="giftset" id="giftset">
+    <section class="giftset" id="giftset" data-testid="giftset">
         <div class="giftset__background"></div>
         <div class="giftset__header">
             <div class="giftset__slogan">Best Gift For Best Friend</div>

@@ -11,7 +11,7 @@
 import Header from "@/layout/Header/Header.vue"
 import ChooseFavoriteVue from "./components/ChooseFavorite/ChooseFavorite.vue";
 import CoffeeBuild from "./components/CoffeeBuild/CoffeeBuild.vue";
-import Gifset from "./components/Giftset/Gifset.vue";
+import Gifset from "./components/Giftset/Giftset.vue";
 </script>
 
 <style lang="scss">

@@ -1,5 +1,5 @@
 <template>
-    <div class="tab">
+    <div class="tab" data-testid="tab">
         <slot></slot>
         <div class="tab__controls">
             <slot name="tabControl"></slot>
