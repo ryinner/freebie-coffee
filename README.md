@@ -11,3 +11,7 @@ First vue 3 education project. That simple landing for coffee selling company.
 - [:x:] js functional
 - [:x:] adaptive
 - [:x:] n2n tests
+
+***
+
+![Landing page preview](/LandingPage.png "Landing page preview")
