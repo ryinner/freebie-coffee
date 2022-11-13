@@ -1,6 +1,8 @@
 @import "./fonts-face";
+@include font-face("Nunito", "Nunito-Light", "300", "light");
 @include font-face("Nunito", "Nunito-Regular", "400", "regular");
 @include font-face("Nunito", "Nunito-Bold", "700", "bold");
+@include font-face("Montserrat", "Montserrat-Regular", "400", "regular");
 @include font-face("Montserrat", "Montserrat-Bold", "700", "bold");
 
 @mixin nunito-16-light {
